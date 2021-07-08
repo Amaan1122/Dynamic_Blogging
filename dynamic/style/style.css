@@ -1,0 +1,88 @@
+body{
+	background-color: #e8cce5;
+}
+
+.main{
+	margin-top: -32px;
+}
+
+.categorymain{
+	background-color: #e8cce5;
+	margin-top: -87px;
+}
+
+.navbar{
+	background-color: #e8cce5;
+}
+
+
+.nav-link , .navbar-brand{
+	color:black;
+	font-weight: bold;
+}
+
+.nav-item .dropdown-menu{
+	background-color: #292b2c;
+}
+.nav-item .dropdown-item{
+	color: white;
+	font-weight: bold;
+}
+
+.btn{
+	color:black;
+	border-color:black;
+}
+
+.jumbotron{
+	background-image: url("../bg/head.jpg");
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.card-columns{
+	padding:25px 0px 0px 28px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+
+}
+
+.card-img-top{
+	height:160px;
+}
+
+.btn-info ,.btn-danger{
+	margin-bottom: 25px;
+}
+
+.btn-dark{
+	color:white;
+	margin-right:20px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+	.navbar-mobile{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.navbar .mobile-form{
+		display : none;
+	}
+	
+	.navbar .navbar-toggler{
+		display : flex;
+		flex-wrap: column;
+	}
+
+	.navbar .nav-link{
+		display : flex;
+		flex-wrap: wrap;
+	}
+	
+}
